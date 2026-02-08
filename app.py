@@ -21,7 +21,7 @@ else:
     st.stop()
 
 # Modelo estable para evitar errores 404
-model = genai.GenerativeModel('models/gemini-1.5-flash')
+model = genai.GenerativeModel('gemini-1.5-flash')
 
 TEMPLATES_DIR = "templates"
 
