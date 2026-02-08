@@ -13,7 +13,7 @@ if "GOOGLE_API_KEY" in st.secrets:
 else:
     st.error("Falta la clave API en los Secrets")
 
-model = genai.GenerativeModel('gemini-1.5-flash-8b')
+model = genai.GenerativeModel('gemini-1.5-flash')
 
 def extract_info(text):
     prompt = f"""
